@@ -1,0 +1,27 @@
+/* global */
+body,
+html {
+  background-color: #0f1928;
+}
+
+/* highlights */
+a {
+  color: #fff;
+  text-decoration: none;
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+}
+
+a:visited {
+  color: #fff;
+}
+
+.link {
+  max-width: 33%;
+  margin: 0.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  background-color: #1c283b;
+}
