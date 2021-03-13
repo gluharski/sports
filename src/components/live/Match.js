@@ -3,9 +3,13 @@ import React from "react";
 function Match({ data }) {
   console.log(data);
 
-  // date => undefined
-  // winner => undefined
-  return <></>;
+  return (
+    <>
+      <a href="#" className="link">
+        {data.home} - {data.away}
+      </a>
+    </>
+  );
 }
 
 export default Match;

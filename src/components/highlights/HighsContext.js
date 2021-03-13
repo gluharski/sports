@@ -9,6 +9,7 @@ export const HighsProvider = (data) => {
     fetch("https://www.scorebat.com/video-api/v1/")
       .then((res) => res.json())
       .then((data) => {
+        console.log(data);
         setVideos(data);
       });
   }, []);

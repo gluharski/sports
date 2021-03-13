@@ -1,3 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* layout */
+.aside-navbar {
+  /* width: 100px; */
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #1c283b;
+}
+
+.aside-navbar .navbar-list {
+  padding: 0.3em 0.7em;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  background-color: red;
+}
+
+.main {
+  /* background: purple; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hs-list,
+.live-list {
+  width: 425px;
+}
+
+.search {
+  width: 100px;
+  background-color: #1c283b;
+}
+
+.search input {
+  width: 100%;
+}
+
+.search form input {
+  background-color: none;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+}
+
 /* global */
 body,
 html {
@@ -18,10 +77,13 @@ a:visited {
 }
 
 .link {
-  max-width: 33%;
+  /* max-width: 33%; */
+  /* height: 35px; */
   margin: 0.3rem;
   display: flex;
   flex-wrap: wrap;
   padding: 0.5rem;
   background-color: #1c283b;
 }
+
+/*  */

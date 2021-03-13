@@ -1,7 +1,7 @@
 import React from "react";
 
 function Match({ data }) {
-  const { title, embed } = data;
+  const { title, embed, side1 } = data;
 
   return (
     <>

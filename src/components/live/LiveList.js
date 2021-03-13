@@ -6,9 +6,15 @@ import Match from "./Match";
 function LiveList() {
   const [live, setLive] = useContext(LiveContext);
 
+  console.log(live);
+
   return (
     <>
-      <Match data={live} />
+      <div className="live-list">
+        {live.map((data, id) => (
+          <Match data={data} key={id} />
+        ))}
+      </div>
     </>
   );
 }

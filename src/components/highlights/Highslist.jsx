@@ -7,11 +7,11 @@ function Highlist() {
   const [videos, setVideos] = useContext(HighsContext);
 
   return (
-    <>
+    <div className="hs-list">
       {videos.map((data, id) => (
         <Match data={data} key={id} />
       ))}
-    </>
+    </div>
   );
 }
 
