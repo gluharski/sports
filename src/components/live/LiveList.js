@@ -8,15 +8,7 @@ function LiveList() {
 
   console.log(live);
 
-  return (
-    <>
-      <div className="live-list">
-        {live.map((data, id) => (
-          <Match data={data} key={id} />
-        ))}
-      </div>
-    </>
-  );
+  return <>{live}</>;
 }
 
 export default LiveList;

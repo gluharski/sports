@@ -1,14 +1,18 @@
 import React from "react";
 
 function Match({ data }) {
-  const { title, embed, side1 } = data;
-
   return (
-    <>
-      <a className="link" target="_blank" href={embed.slice(137, 181)}>
-        {title}
-      </a>
-    </>
+    <tbody>
+      <tr className="teams">
+        <td className="team">{data.side1.name}</td>
+        <td className="team">{data.side2.name}</td>
+        <td className="view-button">
+          <a target="_blank" href={data.embed.slice(137, 181)}>
+            VIEW
+          </a>
+        </td>
+      </tr>
+    </tbody>
   );
 }
 

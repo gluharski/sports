@@ -1,89 +1,32 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-.App {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* layout */
-.aside-navbar {
-  /* width: 100px; */
-  max-height: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: #1c283b;
-}
-
-.aside-navbar .navbar-list {
-  padding: 0.3em 0.7em;
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
-}
-
-.active {
-  background-color: red;
-}
-
-.main {
-  /* background: purple; */
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.hs-list,
-.live-list {
-  width: 425px;
-}
-
-.search {
-  width: 100px;
-  background-color: #1c283b;
-}
-
-.search input {
-  width: 100%;
-}
-
-.search form input {
-  background-color: none;
-  border: none;
-  outline: none;
-  padding: 0.5em;
-}
-
-/* global */
-body,
-html {
-  background-color: #0f1928;
-}
-
-/* highlights */
-a {
-  color: #fff;
-  text-decoration: none;
-  /* overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis; */
-}
-
-a:visited {
-  color: #fff;
-}
-
-.link {
-  /* max-width: 33%; */
-  /* height: 35px; */
-  margin: 0.3rem;
-  display: flex;
-  flex-wrap: wrap;
+thead th {
   padding: 0.5rem;
-  background-color: #1c283b;
 }
 
-/*  */
+.highs {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.team {
+  padding: 0.5rem;
+}
+
+.view-button {
+  padding: 0.5rem;
+  text-align: center;
+  display: block;
+}
+
+.view-button > a {
+  text-decoration: none;
+  background-color: greenyellow;
+  padding: 0.3rem;
+  border-radius: 5px;
+  color: #000;
+}
